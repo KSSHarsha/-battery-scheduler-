@@ -1,8 +1,5 @@
 
-
-T# Task 1 – Wearable Device Battery Scheduling
-
-Problem Statement
+m Statement
 A wearable device with limited battery capacity must execute a sequence of tasks in the given order. Each task consumes battery at a constant rate. Between tasks, the device may enter an idle state, during which the battery recharges at a constant rate. The objective is to determine the minimum total runtime (sum of task durations and idle durations) required to execute all tasks without violating battery constraints. If execution is impossible, the algorithm must return `-1`.
 
 Inputs
@@ -42,3 +39,4 @@ int chargeRate = 2;
 
    Expected Output:
    Minimum Runtime: 35.0
+
